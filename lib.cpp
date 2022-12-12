@@ -1,21 +1,19 @@
-#include<iostream>
+#include <iostream>
+#include "lib.h"
 using namespace std;
-void max(int N, int v[]){
-int count;
-int min;
-int temp;
-for(int i=0;i<N-1;i++)
-        {
-            min=i;
-            for(int j=i+1;j<N;j++)
-                {
-                    if(v[min]>v[j])
-                        min=j;
-                    temp=v[min];
-                    v[min]=v[i];
-                    v[i]=temp;
-                    count++;
-                }
+
+float max( float m[], int dimensione ){
+
+    int i;
+    float c;
+    c=m[0];
+    for (i=0; i<dimensione; i++){
+
+        if(m[i]>=c){
+            c=m[i];
         }
- cout<<v[N-1]<< endl;
+    }
+
+    return c;
+
 }
