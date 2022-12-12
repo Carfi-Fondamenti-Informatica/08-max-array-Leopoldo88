@@ -1,3 +1,3 @@
 #include<iostream>
 #include"lib.cpp"
-void max(v[N]);
+void max(N,v[]);
