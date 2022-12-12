@@ -8,6 +8,6 @@ cin>>n;
 int a[n];
 for(int i=0,i<n,i++)
 cin<<a[i];
-max(a[N]);
+max(a[n]);
   return 0;
 }
