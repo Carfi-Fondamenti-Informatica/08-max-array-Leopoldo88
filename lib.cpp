@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void max(int v[N]){
+void max(int N, int v[]){
 int min;
 int temp;
 for(int i=0;i<N-1;i++)
