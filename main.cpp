@@ -1,3 +1,6 @@
+#include<iostream>
+#include"lib.h"
+
 int main(){
 int n;
 cin>>n;
